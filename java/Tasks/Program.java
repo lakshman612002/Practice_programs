@@ -239,7 +239,7 @@ public class Program {
         // perfectNumber(n);
         // armstrongNumber(n);
         // nthFibnachi(n);
-        sequenceDigits(n);
+        // sequenceDigits(n);
         // patternOfX(n);
         // patternOfTriangle(n);
         // table(n);
