@@ -230,6 +230,7 @@ public class Program {
 
     public static void main(String[] args) throws Exception {
         System.out.print("enter a number:\t");
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         // factorial(n);
         // prime(n);

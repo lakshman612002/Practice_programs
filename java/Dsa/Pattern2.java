@@ -114,6 +114,7 @@ public class Pattern2 {
         Scanner sc = new Scanner(System.in);
         System.out.print("enter numbers:\t");
         int n = sc.nextInt();
+        sc.close();
         // alphabet(n);
         butterflyPattern(n);
         // alphabetPyramid(n);

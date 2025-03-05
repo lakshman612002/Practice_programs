@@ -194,6 +194,7 @@ public class Pattern {
         Scanner sc = new Scanner(System.in);
         System.out.print("enter numbers:\t");
         int n = sc.nextInt();
+        sc.close();
         // blockPattern(n);
         // rightAngleTriangle(n);
         // numberRightAngleTriangle(n);
