@@ -21,6 +21,7 @@ class Base {
         System.out.println("elements of base class");
         System.out.println("a:" + a);
         System.out.println("b:" + b);
+
     }
 }
 
@@ -53,8 +54,8 @@ class Child extends Base {
 public class InheritenceDemo {
     public static void main(String[] args) {
 
-        // Child obj = new Child();
-        // obj.display2();
+        Child obj = new Child();
+        obj.display();
         System.out.println(Child.s);
 
     }
